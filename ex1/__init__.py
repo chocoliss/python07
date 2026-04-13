@@ -1,3 +1,3 @@
-from ..ex0.battle_package import Creature, CreatureFactory
+from .capacitor_package import HealingCreatureFactory, TransformCreatureFactory
 
-__all__ = ["Creature","CreatureFactory"]
+__all__ = ["HealingCreatureFactory","TransformCreatureFactory"]
