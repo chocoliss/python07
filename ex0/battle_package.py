@@ -11,7 +11,7 @@ class Creature(ABC):
         pass
 
     def describe(self) -> str:
-        return (f"{self.name} is a {self.type} Creature")
+        return f"{self.name} is a {self.type} Creature"
 
 
 class Flameling(Creature):
