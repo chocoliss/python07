@@ -11,7 +11,8 @@ def test_factory(factory: CreatureFactory) -> None:
     print(evolved.describe())
 
 
-def fight_factory(factory1: CreatureFactory, factory2) -> None:
+def fight_factory(factory1: CreatureFactory,
+                  factory2: CreatureFactory) -> None:
     creature1 = factory1.create_base()
     creature2 = factory2.create_base()
     print(creature1.describe())

@@ -59,6 +59,8 @@ class Shiftling(Creature, TransformCapability):
             return "Shiftling performs a boosted strike!"
 
     def transform(self) -> str:
+        if self.time == 0:
+            self.time += 1
         return "Shiftling shifts into a sharper form!"
 
     def revert(self) -> str:
@@ -78,6 +80,8 @@ class Morphagon(Creature, TransformCapability):
             return "Morphagon unleashes a devastating morph strike!"
 
     def transform(self) -> str:
+        if self.time == 0:
+            self.time += 1
         return "Morphagon morphs into a dragonic battle form!"
 
     def revert(self) -> str:

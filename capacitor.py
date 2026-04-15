@@ -1,5 +1,5 @@
 from ex1 import TransformCreatureFactory, HealingCreatureFactory
-from ex1.capacitor_package import HealCapability,TransformCapability
+from ex1.capacitor_package import HealCapability, TransformCapability
 
 if __name__ == "__main__":
     print("Testing Creature with healing capability")
